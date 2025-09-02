@@ -39,15 +39,15 @@ function ClientReview() {
             return icons;
         };
   return (
-    <div className='pt-10 pb-16 h-[500px] sm:h-[600px] w-full mb-16 relative bg-no-repeat
-     bg-cover bg-center bg-fixed'
+    <div className=' pt-10 pb-16 h-[500px] sm:h-[600px] w-full mb-16  bg-no-repeat
+     bg-cover bg-center bg-fixed relative'
     style={{backgroundImage:`url('/Images/Review_img2.jpg')`}}>
         <div className='absolute inset-0 bg-black/50'></div>
-        <div className='relative'>
-            <h1 className=' text-xl sm:text-3xl text-center font-extrabold
+        <div className='mb-7'>
+            <h1 className='relative text-xl sm:text-3xl text-center font-extrabold
              text-white dark:text-white '>People’s Experience With <span className='text-amber-500'>Us</span></h1>
         </div>
-          <div className='z-[1001] absolute flex justify-center items-center inset-0'>
+          <div className=''>
 
             <Carousel
                 // swipeable={false}
