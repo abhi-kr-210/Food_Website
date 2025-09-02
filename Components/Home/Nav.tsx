@@ -68,11 +68,11 @@ function Nav({openNav}:navProps) {
 
                 <div  onClick={openNav} className="flex flex-col justify-center items-center space-y-1 cursor-pointer lg:hidden
                    ">
-                        <span className="block h-[2.3px] w-10 bg-slate-900 rounded-full animate-barWave 
+                        <span className="block h-[2.3px] w-10 bg-slate-50 rounded-full animate-barWave 
                         [animation-delay:0s] dark:bg-amber-50" />
-                        <span className="block h-[2.3px] w-7 bg-slate-900 rounded-full animate-barWave 
+                        <span className="block h-[2.3px] w-7 bg-slate-50 rounded-full animate-barWave 
                         [animation-delay:0.2s] dark:bg-amber-50" />
-                        <span className="block h-[2.3px] w-5 bg-slate-900 rounded-full animate-barWave 
+                        <span className="block h-[2.3px] w-5 bg-slate-50 rounded-full animate-barWave 
                         [animation-delay:0.4s] dark:bg-amber-50" />
                 </div>
 

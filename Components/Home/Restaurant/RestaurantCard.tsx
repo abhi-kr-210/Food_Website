@@ -31,7 +31,7 @@ function RestaurantCard({ image, name, description,rating,renderRatingIcons,inde
         hover:rounded-lg"></div>
       </div>
 
-      <h2 className="text-xl font-bold mt-2">{name}</h2>
+      <h2 className="text-xl font-bold mt-2 dark:text-black">{name}</h2>
       <p className="text-gray-600 mt-1 text-xs">{description}</p>
 
       <div className='flex justify-between items-center mt-2'>
