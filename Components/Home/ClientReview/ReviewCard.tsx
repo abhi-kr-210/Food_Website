@@ -10,7 +10,7 @@ type props={
 }
 function ReviewCard({image,name,review,rating,renderRatingIcons}:props) {
   return (
-    <div>
+    <div className='flex flex-col items-center justify-center'>
          <div className='flex items-center justify-center '>
              <Image src={image} alt={name} 
              width={150} height={300} 
