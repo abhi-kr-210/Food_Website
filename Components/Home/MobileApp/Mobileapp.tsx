@@ -27,7 +27,7 @@ function Mobileapp() {
                      kitchen to your doorstep</p>
 
                       {/*app store button*/}
-            <div  className='flex space-x-4  mt-6 w-[80%] mx-auto sm:w-[100%]'>
+            <div  className='flex space-x-4  mt-6 w-[90%] mx-auto sm:w-[100%]'>
                 <a href="#_"
                 className='flex items-center justify-center group border border-gray-400 px-4 py-3
                 rounded-md hover:bg-slate-800 transition-all duration-500
