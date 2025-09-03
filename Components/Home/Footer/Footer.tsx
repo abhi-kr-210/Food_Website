@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { FaDribbble, FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
@@ -13,10 +14,13 @@ function Footer() {
         <div className='flex flex-col  justify-start'>
           <div className='flex space-x-2  items-center'>
            <div className='flex  rounded-full items-center justify-center
-           bg-amber-100 w-10 h-10'>
-               <MdDeliveryDining className='w-6 h-6 text-black'/>
+           bg-amber-50 w-10 h-10'>
+               {/* <MdDeliveryDining className='w-6 h-6 text-black'/>
+                */}
+                <Image src={'/images/logo.png'} alt='logo'
+                  width={100} height={100} className='w-7 h-7'/>
            </div>
-           <h1 className='text-xl font-extrabold text-white'>Foodie</h1>
+           <h1 className='text-xl font-extrabold text-white'>EatExpress</h1>
            </div>
            <p className='text-sm sm:text-base font-medium mt-4 text-gray-200'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
              . Nullam vel nulla vel nisi faucibus

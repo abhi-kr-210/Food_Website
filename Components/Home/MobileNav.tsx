@@ -27,7 +27,7 @@ function MobileNav({showNav,closeNav}:props) {
                    key={items.id} 
                    href={items.url}
                    >
-                   <p className='text-white w-fit text-[20px]
+                   <p className='text-white w-fit text-[16px]
                    ml-12 border-b-[1.5px] pb-1 border-white sm:text-[30px]
                    cursor-pointer hover:text-amber-200 
                    hover:border-amber-200 transition duration-500'>{items.label}</p>

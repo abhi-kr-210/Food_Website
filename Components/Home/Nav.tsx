@@ -5,6 +5,7 @@ import { Navlinks } from '@/constant/constant'
 import Link from 'next/link'
 import { HiBars3BottomRight } from 'react-icons/hi2'
 import ThemeToggler from '../Helper/ThemeToggler'
+import Image from 'next/image'
 
 type navProps={
      openNav:()=>void;
@@ -27,16 +28,18 @@ function Nav({openNav}:navProps) {
 
   return (
     <div className={`${navbg?"bg-[#101010d4] shadow-md " :"fixed"}
-    transition-all duration-600 w-full h-[12vh] z-[1003]  dark:bg-gray-950 fixed`}>
+    transition-all duration-600 w-full h-[10vh] z-[1003]  dark:bg-gray-950 fixed`}>
         <div className='flex items-center justify-between h-full w-[90%] mx-auto xl:w-[80%]'>
           {/* logo */}
           <div className='flex items-center space-x-2'>
-            <div  className='w-10 h-10 bg-blue-950 rounded-full flex items-center justify-center
+            <div  className='w-11 h-11 bg-gray-50 rounded-full flex items-center justify-center
             flex-col'>
-                <MdDeliveryDining className='w-6 h-6 text-white'/>
+              <Image src={'/images/logo.png'} alt='logo'
+               width={100} height={100} className='w-7 h-7'/>
+                {/* <MdDeliveryDining className='w-6 h-6 text-white'/> */}
             </div>
             <h1 className='text-xl hidden sm:block md:text-2xl text-[#afdbf5] font-bold
-            dark:text-[#afdbf5]'>Foodie</h1>
+            dark:text-[#afdbf5]'>EatExpress</h1>
 
           </div>
 
